@@ -1,0 +1,11 @@
+package javaExample;
+
+public class SmallFoward extends Foward {
+
+	@Override
+	void shooting() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

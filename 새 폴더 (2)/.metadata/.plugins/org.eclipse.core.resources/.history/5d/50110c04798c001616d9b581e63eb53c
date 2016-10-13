@@ -1,0 +1,10 @@
+package javaExample;
+
+public abstract class Guard extends Player {
+
+	@Override
+	abstract void shooting();
+
+
+
+}
