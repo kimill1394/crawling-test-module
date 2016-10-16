@@ -2,11 +2,8 @@
 
 
 
-@include(errors.commonerror)
+@include('common.error')
 <div class="contents">
-  <div class="contents_heading">
-    여기부터 컨텐츠
-  </div>
   <div class="contents_body">
 
     <table class="table table_contents">
