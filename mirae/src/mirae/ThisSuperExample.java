@@ -1,10 +1,31 @@
 package mirae;
 
+
+/*	class StarcraftUnit {
+		// 같은 패키지의 다른 클래스, 이름이 겹치는 경우 예제
+		// 이거 컴파일에러임 
+		// 왜냐면 public으로 정의된 게 있기 때문에 
+		// 얘는 자동적으로 그 애가 자기랑 이름이 같다는 걸 알고 있거든!  
+		String name = "in this .java";
+}		// 다른 패키지인 경우도 이름이 같다면 import 한 다음 풀네임을 써야 함!	
+*/
+
+
+
+
+// import package.class; 
+// 숏네임을 쓸 수 있게 해주짛ㅎㅎㅎ
+
 public class ThisSuperExample {
 
 	public static void main(String args[]) {
 	
 		computer cc = new computer();
+		// 원래 computer(숏네임: 클래스)은 
+		// mirae.computer(풀네임: 패키지.클래스)로 컴파일링
+		
+		
+		
 //		cc.printSuperOfSuperClassName();
 		cc.printOverriding();
 		
