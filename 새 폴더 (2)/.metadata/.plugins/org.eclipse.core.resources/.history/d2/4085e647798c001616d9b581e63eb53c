@@ -1,9 +1,0 @@
-package javaExample;
-
-public abstract class Foward extends Player{
-
-	@Override 
-	abstract void shooting();
-	
-	
-}
